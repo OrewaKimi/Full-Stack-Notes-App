@@ -1,10 +1,14 @@
 import React from 'react'
 import Navbar from "../../components/Navbar/Navbar"
 
-function Home() {
+const Home = () => {
   return (
     <>
     <Navbar />
+
+    <div className="container mx-auto">
+      <NoteCard />
+    </div>
     </>
   )
 }
